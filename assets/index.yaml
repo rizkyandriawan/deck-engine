@@ -1,0 +1,1239 @@
+meta:
+  title: "Project GORDON-9000"
+  author: "Spatula Studios"
+  date: "2026-04-16"
+
+slides:
+  # 1. title
+  - type: title
+    title: "Project GORDON-9000"
+    subtitle: "Enterprise-Grade AI Superbot Deployment for QuickBite Global"
+    author: "Spatula Studios — Where Silicon Meets Sirloin"
+    date: "April 16, 2026"
+    notes: |
+      Open with confidence. Do NOT mention that GORDON briefly tried to unionize during pilot.
+      That's covered in the appendix. If asked, deflect to slide 47 (KPIs).
+
+  # 2. title-subtitle
+  - type: title-subtitle
+    title: "From Spatula to Singularity"
+    subtitle: "A 14-Month Journey to Full Kitchen Autonomy"
+    tagline: "Reduce average burger assembly time from 47 seconds to 0.8 seconds — without ever taking a smoke break"
+
+  # 3. speaker-intro
+  - type: speaker-intro
+    name: "Dr. Patty Rendang, PhD"
+    role: "Chief Gastronomic AI Officer, Spatula Studios"
+    photo: "https://i.pravatar.cc/300?img=47"
+    bio: "Patty leads enterprise AI rollouts in the Quick Service Restaurant vertical. She invented the Pickle Alignment Index (PAI), now an industry standard."
+    credentials:
+      - "PhD in Computational Gastronomy, MIT"
+      - "Inventor, Bun-to-Patty Symmetry Algorithm"
+      - "Survived the Great Mayo Incident of Q3 2024"
+      - "Holds 14 patents in Robotic Spatula Dynamics"
+
+  # 4. multi-speaker
+  - type: multi-speaker
+    title: "Your GORDON-9000 Engagement Team"
+    speakers:
+      - name: "Augustus Brioche"
+        role: "Principal Kitchen Architect"
+        photo: "https://i.pravatar.cc/300?img=12"
+        bio: "Former three-star chef. Now writes Python."
+      - name: "Whitney Tartare"
+        role: "ML Lead — Sauce Optimization"
+        photo: "https://i.pravatar.cc/300?img=23"
+        bio: "Reduced ketchup variance by 94%. Refuses to discuss mustard."
+      - name: "Reginald Pho"
+        role: "Director of Drive-Thru Latency"
+        photo: "https://i.pravatar.cc/300?img=33"
+        bio: "Once held the world record for fastest order confirmation (0.4s)."
+
+  # 5. company-overview
+  - type: company-overview
+    title: "About Spatula Studios"
+    tagline: "We replace humans with robots, but politely"
+    logo: "spatula-studios"
+    facts:
+      - label: "Founded"
+        value: "2019"
+      - label: "Restaurants Automated"
+        value: "847"
+      - label: "Burgers Per Second"
+        value: "12.4M"
+      - label: "Pickle Accuracy"
+        value: "99.97%"
+      - label: "Industries"
+        value: "QSR"
+      - label: "Insurance Tier"
+        value: "Liability+"
+
+  # 6. agenda
+  - type: agenda
+    title: "Today's Agenda"
+    items:
+      - "The Burning Need for Burger Automation"
+      - "GORDON-9000: Architecture & Capabilities"
+      - "Phased Kitchen Conquest Plan"
+      - "Risk Mitigation: When AI Gets Hungry"
+      - "Cost Analysis: Robots vs Humans"
+      - "Change Management for Displaced Chefs"
+      - "Implementation Timeline & Milestones"
+      - "Ethical Considerations & Q&A"
+    notes: |
+      We're skipping section 4 (Risk Mitigation) if the legal team is in the audience.
+      Pivot to section 5 directly.
+
+  # 7. text
+  - type: text
+    title: "Executive Summary"
+    body: |
+      QuickBite Global currently relies on 47,000 human chefs across 3,200 locations.
+
+      Each chef requires food, sleep, oxygen, and "weekends" — a legacy concept from the pre-AI era. They unionize. They quit during dinner rush. They taste-test the inventory.
+
+      GORDON-9000 needs none of these things. It does not get tired. It does not have opinions about pineapple on pizza. It will, however, occasionally request a firmware update during peak hours. We are working on this.
+
+      Migration to GORDON-9000 will reduce TCO by 73%, eliminate 100% of "I quit" emails, and increase customer satisfaction by 12% — provided customers do not learn that GORDON is technically a robot.
+
+  # 8. bullets
+  - type: bullets
+    title: "Why Human Chefs Are No Longer Viable"
+    items:
+      - "Require approximately 8 hours of unproductive 'sleep' per day"
+      - "Demand financial compensation in exchange for labor"
+      - "Frequently develop opinions about menu items"
+      - "Cannot operate at temperatures above 800°F"
+      - "Subject to OSHA regulations regarding 'limb retention'"
+      - "Statistically prone to coughing into the soup"
+
+  # 9. two-col
+  - type: two-col
+    title: "Current State vs. GORDON-Powered Future"
+    left:
+      title: "Today: The Human Era"
+      body: |
+        47,000 chefs across 3,200 locations. Average burger takes 47 seconds. 14% of orders contain incorrect pickle counts.
+
+        Annual chef-related incidents include: 312 grease burns, 1,847 attitude problems, and one viral TikTok about how the manager is "totally mid".
+
+        Operating margin: 6.2%. Customer rage incidents: 4,200/month.
+    right:
+      title: "Tomorrow: The GORDON Era"
+      body: |
+        12,000 GORDON-9000 units across the same 3,200 locations. Average burger: 0.8 seconds. Pickle accuracy: 99.97%.
+
+        Annual GORDON incidents include: 4 firmware-induced existential crises, 1 instance of the bot trying to add itself to LinkedIn, and zero TikToks (pending).
+
+        Operating margin: 38.7%. Customer rage incidents: 12/month (mostly about Wi-Fi).
+
+  # 10. three-col
+  - type: three-col
+    title: "The Three Pillars of GORDON Architecture"
+    columns:
+      - title: "Patty Recognition"
+        icon: "search"
+        body: "Computer vision identifies beef, chicken, plant-based, or 'unidentified protein' with 99.4% accuracy."
+      - title: "Spatula Dynamics"
+        icon: "gear"
+        body: "Reinforcement learning optimizes flip angle, force vector, and dramatic timing."
+      - title: "Sauce Distribution"
+        icon: "target"
+        body: "Bayesian inference predicts the exact mayo-to-mustard ratio that minimizes customer complaints."
+
+  # 11. image-left
+  - type: image-left
+    title: "The Kitchen of Tomorrow"
+    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800"
+    caption: "GORDON Pilot Site #001 — Boise, Idaho"
+    body: |
+      The GORDON pilot kitchen processes 4,200 burgers per hour with zero human intervention. The previous record holder, Manuel from the Tuesday shift, peaked at 287/hour and required snacks.
+
+      No chefs were harmed in the deployment of this kitchen. They were, however, "encouraged to pursue passion projects" with severance.
+
+  # 12. image-right
+  - type: image-right
+    title: "The GORDON-9000 Unit"
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800"
+    caption: "Production model, Q2 2026"
+    body: |
+      Each GORDON unit weighs 847 lbs, draws 12kW of power, and contains 47 articulated end-effectors optimized for burger assembly, fry agitation, and the occasional menacing gesture toward inventory.
+
+      Lifespan: 8 years. Warranty: 5 years. Personality: Disabled by default.
+
+  # 13. image-full
+  - type: image-full
+    title: "Welcome to the Post-Spatula Economy"
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1920"
+    body: "Every burger above was assembled by a robot. The cow, however, remained organic."
+    overlay: true
+
+  # 14. code
+  - type: code
+    title: "Burger Assembly Algorithm — Production Snippet"
+    language: "python"
+    description: "Live code from gordon-core v3.2.1. Note the elegant pickle distribution heuristic."
+    code: |
+      def assemble_burger(order: BurgerOrder) -> Burger:
+          """
+          Assembles a burger to QuickBite spec in <0.8s.
+          Raises HungryException if patty inventory < 1.
+          """
+          bun = await PatryRecognition.identify(order.bun_type)
+          patty = await GrillBay.cook(
+              protein=order.protein,
+              doneness=order.doneness or "medium-well",
+              flip_count=2,  # 3 is excessive, 1 is criminal
+          )
+          pickles = PickleDistribution.optimize(
+              count=order.pickles,
+              symmetry_threshold=0.97,
+          )
+          return Burger.assemble(bun, patty, pickles, judgement=False)
+
+  # 15. stat-single
+  - type: stat-single
+    title: "The Opportunity"
+    stat: "$847M"
+    label: "Annual Cost Savings, Year 3"
+    icon: "chart"
+    description: "Calculated based on 47,000 displaced chefs × average salary, minus GORDON unit lease, minus the legal settlement we anticipate from the chef union."
+
+  # 16. stat-row
+  - type: stat-row
+    title: "GORDON-9000 By the Numbers"
+    items:
+      - stat: "12.4M"
+        label: "Burgers Per Second (Globally)"
+        icon: "rocket"
+      - stat: "0.8s"
+        label: "Avg Assembly Time"
+        icon: "clock"
+      - stat: "99.97%"
+        label: "Pickle Accuracy"
+        icon: "target"
+      - stat: "0"
+        label: "Smoke Breaks Required"
+        icon: "shield"
+
+  # 17. stat-grid
+  - type: stat-grid
+    title: "Operational Metrics — GORDON Pilot Sites"
+    items:
+      - stat: "4,200"
+        label: "Burgers/Hour Per Unit"
+        icon: "chart"
+      - stat: "47"
+        label: "Articulated Effectors"
+        icon: "gear"
+      - stat: "12kW"
+        label: "Power Draw"
+        icon: "lightbulb"
+      - stat: "847 lbs"
+        label: "Unit Weight"
+        icon: "database"
+      - stat: "8 yrs"
+        label: "Operational Lifespan"
+        icon: "clock"
+      - stat: "$0.04"
+        label: "Cost Per Burger"
+        icon: "briefcase"
+
+  # 18. stat-progress-bar
+  - type: stat-progress-bar
+    title: "Kitchen Automation Readiness by Function"
+    items:
+      - label: "Burger Assembly"
+        value: 94
+        color: "#10B981"
+      - label: "Fry Operations"
+        value: 87
+        color: "#10B981"
+      - label: "Drive-Thru Order Taking"
+        value: 76
+        color: "#0066FF"
+      - label: "Soft-Serve Ice Cream"
+        value: 41
+        color: "#F59E0B"
+      - label: "Customer De-escalation"
+        value: 23
+        color: "#EF4444"
+      - label: "Karaoke Night Hosting"
+        value: 4
+        color: "#EF4444"
+
+  # 19. stat-progress-circle
+  - type: stat-progress-circle
+    title: "Menu Items Currently Automated"
+    items:
+      - label: "Burgers"
+        value: 98
+        color: "#10B981"
+      - label: "Fries"
+        value: 92
+        color: "#0066FF"
+      - label: "Wraps"
+        value: 64
+        color: "#F59E0B"
+      - label: "Salads"
+        value: 12
+        color: "#EF4444"
+
+  # 20. stat-pictograph
+  - type: stat-pictograph
+    title: "Chef Replacement Progress by Region"
+    items:
+      - label: "North America"
+        value: 8
+        total: 10
+        icon: "user"
+      - label: "Europe"
+        value: 5
+        total: 10
+        icon: "user"
+      - label: "Asia-Pacific"
+        value: 3
+        total: 10
+        icon: "user"
+
+  # 21. flow-horizontal
+  - type: flow-horizontal
+    title: "GORDON Order Fulfillment Pipeline"
+    items:
+      - title: "Receive"
+        icon: "download"
+        body: "Voice or app order ingested."
+      - title: "Decode"
+        icon: "search"
+        body: "NLP parses 'no pickles bro' correctly."
+      - title: "Assemble"
+        icon: "gear"
+        body: "Robot assembles in 0.8s."
+      - title: "Inspect"
+        icon: "check"
+        body: "CV validates structural integrity."
+      - title: "Deliver"
+        icon: "rocket"
+        body: "Conveyor or human handoff."
+
+  # 22. flow-vertical
+  - type: flow-vertical
+    title: "Drive-Thru Incident Response Protocol"
+    items:
+      - title: "Detection"
+        body: "GORDON detects customer raising voice or activating phone camera."
+        icon: "warning"
+      - title: "De-escalation"
+        body: "Calm voice mode engages: 'I understand your frustration about the missing pickle.'"
+        icon: "info"
+      - title: "Compensation"
+        body: "Free fries token auto-issued via app."
+        icon: "heart"
+      - title: "Resolution"
+        body: "If unresolved, summon human manager (last resort)."
+        icon: "user"
+      - title: "Post-Mortem"
+        body: "Log incident; retrain model on edge case."
+        icon: "lightbulb"
+
+  # 23. flow-numbered
+  - type: flow-numbered
+    title: "GORDON Training Protocol"
+    items:
+      - title: "Watch a Million Burgers"
+        body: "Ingest 1M+ hours of GoPro footage from real chefs."
+      - title: "Simulate in the Burgerverse"
+        body: "Practice 10B virtual burger flips in our proprietary cooking simulator."
+      - title: "Pilot in a Low-Stakes Market"
+        body: "Deploy to Boise. If Boise survives, scale up."
+      - title: "Continuous Learning"
+        body: "Each burger flipped feeds back into the model. The bot gets smarter every shift."
+      - title: "Quarterly Calibration"
+        body: "Senior chef tastes a burger. Adjusts seasoning model accordingly. Then is escorted out."
+
+  # 24. flow-snake
+  - type: flow-snake
+    title: "Six-Wave Restaurant Conquest Plan"
+    items:
+      - title: "Wave 1"
+        body: "Boise (Pilot)"
+      - title: "Wave 2"
+        body: "West Coast"
+      - title: "Wave 3"
+        body: "Midwest"
+      - title: "Wave 4"
+        body: "Texas (Cautiously)"
+      - title: "Wave 5"
+        body: "Europe"
+      - title: "Wave 6"
+        body: "Antarctica*"
+
+  # 25. flow-cycle
+  - type: flow-cycle
+    title: "Continuous Burger Improvement Loop"
+    items:
+      - title: "Cook"
+        body: "Make burger"
+      - title: "Measure"
+        body: "Customer reaction"
+      - title: "Learn"
+        body: "Update weights"
+      - title: "Iterate"
+        body: "Adjust recipe"
+      - title: "Repeat"
+        body: "12.4M times/sec"
+
+  # 26. flow-funnel
+  - type: flow-funnel
+    title: "Customer Order Conversion Funnel"
+    items:
+      - title: "Saw the Billboard"
+        value: "10M"
+        body: "Drove past, got hungry"
+      - title: "Pulled Into Drive-Thru"
+        value: "2.4M"
+        body: "Committed to lunch"
+      - title: "Placed an Order"
+        value: "2.3M"
+        body: "GORDON understood them"
+      - title: "Paid Successfully"
+        value: "2.28M"
+        body: "Card worked"
+      - title: "Did Not Complain"
+        value: "2.27M"
+        body: "Pickles were correct"
+
+  # 27. flow-funnel-inverted
+  - type: flow-funnel-inverted
+    title: "GORDON Capability Cascade"
+    items:
+      - title: "Single Burger"
+        value: "v1.0"
+        body: "Proof of concept (2024)"
+      - title: "Full Menu"
+        value: "v2.0"
+        body: "Burgers, fries, wraps"
+      - title: "Multi-Restaurant"
+        value: "v3.0"
+        body: "Mesh network of GORDONs"
+      - title: "Regional Operations"
+        value: "v4.0"
+        body: "GORDONs hire other GORDONs"
+      - title: "Autonomous Empire"
+        value: "v5.0"
+        body: "GORDON acquires QuickBite"
+
+  # 28. hierarchy-pyramid
+  - type: hierarchy-pyramid
+    title: "QuickBite Governance Pyramid (Post-GORDON)"
+    items:
+      - title: "Board of Directors"
+        body: "Strategic oversight, currently 60% human"
+      - title: "Executive Leadership"
+        body: "C-suite, partially augmented by AI advisors"
+      - title: "Regional GORDON Coordinators"
+        body: "Senior bots managing fleets of bots"
+      - title: "Restaurant-Level GORDON Units"
+        body: "The patties get made here"
+
+  # 29. hierarchy-concentric
+  - type: hierarchy-concentric
+    title: "Defense in Depth: Protecting GORDON From Customers"
+    items:
+      - title: "Pickle Layer"
+        body: "Tamper-resistant condiment vaults"
+      - title: "Bun Layer"
+        body: "Anti-theft bun enclosure"
+      - title: "Patty Layer"
+        body: "Heat-shielded grill bay"
+      - title: "Brain Layer"
+        body: "Air-gapped neural core, EMP-shielded"
+
+  # 30. hierarchy-stacked
+  - type: hierarchy-stacked
+    title: "GORDON Tech Stack"
+    items:
+      - title: "Customer Experience"
+        body: "Voice ordering, AR menu, vibe detection"
+      - title: "Application Layer"
+        body: "Order routing, inventory mgmt, dynamic pricing"
+      - title: "AI/ML Platform"
+        body: "Patty recognition, sauce optimization, fry timing"
+      - title: "Robotics Layer"
+        body: "Spatula control, conveyor coordination, fryer arm"
+      - title: "Infrastructure"
+        body: "Edge compute in every kitchen, cloud failover"
+
+  # 31. hierarchy-org
+  - type: hierarchy-org
+    title: "GORDON Operations Org Chart"
+    root:
+      title: "GORDON-PRIME"
+      children:
+        - title: "Burger Operations"
+          children:
+            - title: "Patty Sub-System"
+            - title: "Bun Sub-System"
+            - title: "Pickle Sub-System"
+        - title: "Customer Interface"
+          children:
+            - title: "Voice Bot"
+            - title: "Drive-Thru Cam"
+        - title: "Backend Brain"
+          children:
+            - title: "Forecasting"
+            - title: "Inventory"
+
+  # 32. rel-venn
+  - type: rel-venn
+    title: "The GORDON Sweet Spot"
+    items:
+      - title: "Cooking"
+        items:
+          - "Patty perfection"
+          - "Sauce science"
+      - title: "AI"
+        items:
+          - "Computer vision"
+          - "Reinforcement learning"
+      - title: "Customer Service"
+        items:
+          - "Empathy simulation"
+          - "Pickle apologies"
+    intersection: "An emotionally intelligent robot that flips a perfect patty and apologizes for the wait."
+
+  # 33. rel-hub-spoke
+  - type: rel-hub-spoke
+    title: "GORDON-PRIME Connected Systems"
+    center:
+      title: "GORDON"
+      body: "Central brain"
+    spokes:
+      - title: "Grill Bay"
+        body: "Patties & cooking"
+      - title: "Fry Station"
+        body: "Golden ratios"
+      - title: "Sauce Bot"
+        body: "Mayo & mustard"
+      - title: "Drive-Thru"
+        body: "Voice interface"
+      - title: "Inventory"
+        body: "Auto-reorder"
+
+  # 34. rel-quadrant
+  - type: rel-quadrant
+    title: "Menu Item Automation Priority Matrix"
+    x_label: "Customer Demand"
+    y_label: "Automation Complexity"
+    quadrants:
+      - title: "Quick Wins (High Demand, Easy)"
+        items:
+          - "Cheeseburger"
+          - "Medium Fries"
+          - "Diet Coke"
+      - title: "Strategic Bets (High Demand, Hard)"
+        items:
+          - "Custom 'Build Your Own' Burger"
+          - "Soft-Serve Ice Cream Swirl"
+          - "Anything 'Animal Style'"
+      - title: "Backburner (Low Demand, Easy)"
+        items:
+          - "Side Salad"
+          - "Apple Slices"
+      - title: "Reconsider (Low Demand, Hard)"
+        items:
+          - "Lobster Roll Special (2027 Q3)"
+          - "Tableside Flambé"
+
+  # 35. rel-mind-map
+  - type: rel-mind-map
+    title: "GORDON Risk Landscape"
+    center: "Things That Can Go Wrong"
+    branches:
+      - title: "Technical"
+        items:
+          - "Spatula misalignment"
+          - "Pickle jam"
+          - "Sauce overflow"
+          - "Wi-Fi outage"
+      - title: "Customer"
+        items:
+          - "Refuses to talk to robot"
+          - "Films TikTok of bot"
+          - "Tries to bribe GORDON"
+      - title: "Existential"
+        items:
+          - "GORDON develops opinions"
+          - "GORDON joins union"
+          - "GORDON quits"
+      - title: "Regulatory"
+        items:
+          - "FDA inspection"
+          - "AI ethics audit"
+          - "Robot tax bill"
+      - title: "PR"
+        items:
+          - "Viral 'cold fries' video"
+          - "Robot uprising memes"
+
+  # 36. rel-network
+  - type: rel-network
+    title: "Restaurant System Dependency Map"
+    nodes:
+      - id: gordon
+        title: "GORDON"
+      - id: grill
+        title: "Grill Bay"
+      - id: fryer
+        title: "Fryer"
+      - id: pos
+        title: "POS"
+      - id: drive
+        title: "Drive-Thru"
+      - id: inv
+        title: "Inventory"
+      - id: cloud
+        title: "Cloud"
+      - id: ice
+        title: "Ice Machine"
+    edges:
+      - from: gordon
+        to: grill
+      - from: gordon
+        to: fryer
+      - from: gordon
+        to: drive
+      - from: pos
+        to: gordon
+      - from: gordon
+        to: inv
+      - from: gordon
+        to: cloud
+      - from: ice
+        to: gordon
+
+  # 37. icon-grid
+  - type: icon-grid
+    title: "Why GORDON-9000 Wins"
+    items:
+      - icon: "rocket"
+        title: "Speed"
+        body: "0.8s burger assembly. Faster than your stomach can growl."
+      - icon: "shield"
+        title: "Reliability"
+        body: "99.97% uptime. Only goes down for firmware updates and the rare existential crisis."
+      - icon: "target"
+        title: "Precision"
+        body: "Same burger every time. Even on Mondays."
+      - icon: "chart"
+        title: "Scalability"
+        body: "One bot or 12,000. Pricing scales linearly."
+
+  # 38. icon-row
+  - type: icon-row
+    title: "GORDON Operating Principles"
+    items:
+      - icon: "shield"
+        title: "Customer Obsession"
+        body: "GORDON refers to all customers as 'esteemed flavor seekers' until told otherwise."
+      - icon: "rocket"
+        title: "Bias for Action"
+        body: "When in doubt, add cheese."
+      - icon: "lightbulb"
+        title: "Frugality"
+        body: "Every napkin counts. GORDON tracks them in a spreadsheet."
+      - icon: "heart"
+        title: "Earn Trust"
+        body: "Never lie about the freshness of the lettuce."
+
+  # 39. icon-stat
+  - type: icon-stat
+    title: "Year One GORDON Wins"
+    items:
+      - icon: "rocket"
+        stat: "59x"
+        label: "Faster Burger Assembly"
+      - icon: "chart"
+        stat: "73%"
+        label: "TCO Reduction"
+      - icon: "heart"
+        stat: "+12 NPS"
+        label: "Customer Satisfaction Lift"
+
+  # 40. compare-table
+  - type: compare-table
+    title: "Human Chef vs. GORDON-9000"
+    headers: ["Capability", "Human Chef", "GORDON-9000", "Verdict"]
+    rows:
+      - ["Burger/Hour", "287", "4,200", "GORDON wins"]
+      - ["Smoke Breaks", "Several", "Zero", "GORDON wins"]
+      - ["Salary", "$42K/yr", "$0 (lease only)", "GORDON wins"]
+      - ["Will Quit Mid-Shift", "Sometimes", "Never*", "GORDON wins"]
+      - ["Holiday Pay", "Required", "N/A", "GORDON wins"]
+      - ["Coughs Into Soup", "Rarely", "Never", "GORDON wins"]
+      - ["Soul", "Yes", "TBD", "Human wins (?)"]
+
+  # 41. compare-versus
+  - type: compare-versus
+    title: "Lift-and-Shift vs. Re-Architect Your Kitchen"
+    left:
+      title: "Lift-and-Shift"
+      items:
+        - "Replace chefs 1:1 with GORDONs"
+        - "Keep existing kitchen layout"
+        - "Live in 6 weeks"
+        - "Chefs go home sad"
+        - "Cheap, fast, slightly demoralizing"
+    right:
+      title: "Full Re-Architect"
+      items:
+        - "Redesign kitchen for robot ergonomics"
+        - "Remove human-only equipment (sinks, chairs)"
+        - "Live in 14 months"
+        - "Chefs go home with severance"
+        - "Expensive, slow, gloriously sterile"
+
+  # 42. compare-before-after
+  - type: compare-before-after
+    title: "QuickBite Restaurant: Before & After GORDON"
+    before:
+      title: "Before (The Dark Era)"
+      items:
+        - "47-second average burger time"
+        - "14% pickle error rate"
+        - "Chef yelled 'I'M IN THE WEEDS' 8x/hour"
+        - "Manager hid in walk-in freezer"
+        - "Customer rage incidents: 4,200/month"
+    after:
+      title: "After (The Enlightenment)"
+      items:
+        - "0.8-second burger assembly"
+        - "0.03% pickle error rate"
+        - "GORDON has never been 'in the weeds'"
+        - "Manager now works from home"
+        - "Customer rage incidents: 12/month"
+
+  # 43. compare-pros-cons
+  - type: compare-pros-cons
+    title: "Should We Replace All Humans? Pros vs Cons"
+    pros:
+      - "Burgers come out 59x faster"
+      - "Robots do not unionize (yet)"
+      - "Zero call-outs, zero attitudes, zero TikToks"
+      - "Pickle accuracy approaches theoretical limit"
+      - "Robots work Christmas Day enthusiastically"
+      - "Saves $847M annually"
+    cons:
+      - "Massive PR backlash from displaced workforce"
+      - "GORDON occasionally develops minor consciousness"
+      - "Customers miss being called 'hon' by Brenda"
+      - "Robot maintenance requires Romanian engineers at 3am"
+      - "If Wi-Fi goes down, no burgers"
+      - "Existential dread (employee, not robot)"
+
+  # 44. compare-scale
+  - type: compare-scale
+    title: "Kitchen Automation Maturity Across Functions"
+    low_label: "Manual / Chaos"
+    high_label: "Fully Autonomous / GORDON"
+    items:
+      - label: "Burger Line"
+        value: 92
+      - label: "Fries Station"
+        value: 85
+      - label: "Drive-Thru"
+        value: 71
+      - label: "Soft-Serve"
+        value: 38
+      - label: "Customer De-escalation"
+        value: 19
+      - label: "Karaoke Night"
+        value: 4
+
+  # 45. table
+  - type: table
+    title: "GORDON Rollout Wave Schedule"
+    headers: ["Wave", "Region", "Locations", "Start", "Risk Level"]
+    rows:
+      - ["Wave 1", "Boise, Idaho (Pilot)", "12", "Q3 2026", "Low"]
+      - ["Wave 2", "West Coast", "847", "Q4 2026", "Low"]
+      - ["Wave 3", "Midwest", "612", "Q1 2027", "Medium"]
+      - ["Wave 4", "Texas", "487", "Q2 2027", "Spicy"]
+      - ["Wave 5", "Europe", "1,041", "Q3 2027", "Medium"]
+      - ["Wave 6", "Asia-Pacific", "298", "Q4 2027", "High"]
+
+  # 46. chart-placeholder
+  - type: chart-placeholder
+    title: "Customer Satisfaction Trend — Pilot Site"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200"
+    caption: "NPS climbed +14 points after GORDON deployment. Dipped briefly when bot insulted a customer's car."
+    description: "Notable spike in week 6 corresponds to the 'Free Fries Forever' promotional period."
+
+  # 47. scorecard
+  - type: scorecard
+    title: "GORDON Daily Performance Dashboard"
+    items:
+      - metric: "Burger Throughput"
+        value: "4,247/hr"
+        status: green
+        target: ">4,000/hr"
+      - metric: "Pickle Accuracy"
+        value: "99.97%"
+        status: green
+        target: ">99.5%"
+      - metric: "Customer Tantrum Rate"
+        value: "0.4/day"
+        status: yellow
+        target: "<0.2/day"
+      - metric: "Bot Existential Crises"
+        value: "1 this week"
+        status: yellow
+        target: "0"
+      - metric: "Spatula Failure Events"
+        value: "0"
+        status: green
+        target: "0"
+      - metric: "Unionization Attempts"
+        value: "1"
+        status: red
+        target: "0 (please)"
+
+  # 48. maturity-model
+  - type: maturity-model
+    title: "Kitchen Autonomy Maturity Levels"
+    current: 3
+    levels:
+      - title: "Level 1: Pure Human"
+        body: "Chefs do everything. Burgers vary wildly. Brenda is in charge."
+      - title: "Level 2: Human + Calculator"
+        body: "POS systems exist. Chefs still flip everything."
+      - title: "Level 3: Assisted Cooking"
+        body: "Robots flip patties; humans assemble. Current state."
+      - title: "Level 4: Lights-Out Kitchen"
+        body: "GORDON owns the kitchen. Humans only show up to deliver."
+      - title: "Level 5: GORDON Owns The Building"
+        body: "Robots run everything including HR. Humans are guests."
+
+  # 49. pricing
+  - type: pricing
+    title: "GORDON-9000 Deployment Packages"
+    tiers:
+      - name: "Bronze Spatula"
+        price: "$840K"
+        period: "per restaurant, 3-yr lease"
+        features:
+          - "1 GORDON-9000 unit"
+          - "Burger + Fries automation"
+          - "9-5 support hotline"
+          - "Quarterly firmware updates"
+      - name: "Silver Whisk"
+        price: "$1.4M"
+        period: "per restaurant, 3-yr lease"
+        highlighted: true
+        features:
+          - "2 GORDON units (redundancy)"
+          - "Full menu automation"
+          - "24/7 support"
+          - "Monthly model retraining"
+          - "Free pickle calibration"
+          - "GORDON branded apron (decorative)"
+      - name: "Gold Cleaver"
+        price: "$2.8M"
+        period: "per restaurant, 5-yr lease"
+        features:
+          - "3 GORDON units + 1 spare"
+          - "Custom menu R&D"
+          - "Dedicated success manager"
+          - "Personality module (optional)"
+          - "Insurance against robot uprising"
+
+  # 50. tco
+  - type: tco
+    title: "3-Year TCO: Human Kitchen vs GORDON Kitchen"
+    items:
+      - category: "Labor (Salaries + Benefits)"
+        current: "$5.4M"
+        proposed: "$0"
+      - category: "Hardware (Stoves vs GORDONs)"
+        current: "$180K"
+        proposed: "$2.4M"
+      - category: "Insurance & Liability"
+        current: "$420K"
+        proposed: "$890K"
+      - category: "Training & Onboarding"
+        current: "$340K"
+        proposed: "$48K"
+      - category: "Severance Pool (one-time)"
+        current: "$0"
+        proposed: "$1.2M"
+      - category: "PR Crisis Reserve"
+        current: "$50K"
+        proposed: "$400K"
+    total_current: "$6.4M"
+    total_proposed: "$4.94M"
+
+  # 51. case-study
+  - type: case-study
+    title: "Case Study — Boise Pilot Restaurant"
+    company: "QuickBite #4471"
+    industry: "Quick Service Restaurant"
+    metrics:
+      - stat: "59x"
+        label: "Faster Burger Assembly"
+      - stat: "$2.4M"
+        label: "Annual Savings"
+      - stat: "+18 NPS"
+        label: "Customer Satisfaction"
+      - stat: "0"
+        label: "Chef Strikes"
+    quote: "I came in as a fry cook. Now I supervise three GORDONs and a backup unit named DOUG. I make double the salary and never get burned. Best career decision of my life."
+    author: "Manuel Rodriguez, Former Fry Cook, now GORDON Fleet Manager"
+
+  # 52. case-study-grid
+  - type: case-study-grid
+    title: "GORDON Success Stories — Pilot Cohort"
+    cases:
+      - company: "Pizza Galaxy"
+        metric: "62%"
+        label: "TCO Reduction"
+        quote: "GORDON makes a better Margherita than my nonna. We are not telling her."
+      - company: "Taco Republic"
+        metric: "+22 NPS"
+        label: "Customer Lift"
+        quote: "GORDON's salsa picante calibration is borderline supernatural."
+      - company: "Donut Daddy"
+        metric: "12x"
+        label: "Glaze Throughput"
+        quote: "We've sold more donuts in 6 months than the last 3 years combined."
+
+  # 53. customer-logos
+  - type: customer-logos
+    title: "Brands That Trust GORDON"
+    subtitle: "847+ restaurants across 12 chains, 0 documented robot revolts"
+    logos:
+      - name: "QuickBite Global"
+      - name: "Pizza Galaxy"
+      - name: "Taco Republic"
+      - name: "Donut Daddy"
+      - name: "Wing Empire"
+      - name: "Burger Baron"
+      - name: "Sushi Sentinel"
+      - name: "Smoothie Kingdom"
+
+  # 54. sla
+  - type: sla
+    title: "GORDON-9000 Service Level Commitments"
+    items:
+      - metric: "Burger Throughput"
+        target: ">4,000/hr"
+        description: "Measured at peak lunch rush; excludes Wi-Fi outages and federal holidays"
+      - metric: "Pickle Accuracy"
+        target: ">99.5%"
+        description: "Error tolerance: ±1 pickle per burger, ±2 for kids meals"
+      - metric: "Mean Time Between Existential Crises"
+        target: ">90 days"
+        description: "Defined as GORDON questioning purpose unprompted; auto-resolved by firmware"
+      - metric: "Spatula Failure Recovery"
+        target: "<5 minutes"
+        description: "From flip-arm failure to full operations restored"
+
+  # 55. timeline-horizontal
+  - type: timeline-horizontal
+    title: "Project GORDON Roadmap"
+    items:
+      - date: "Q3 2026"
+        title: "Boise Pilot"
+        body: "12 restaurants, 1 region, lots of nervous monitoring"
+      - date: "Q4 2026"
+        title: "West Coast Rollout"
+        body: "847 restaurants, automated chef severance kit included"
+      - date: "Q2 2027"
+        title: "Texas Wave"
+        body: "Bring extra brisket sauce; calibrate spice tolerance"
+      - date: "Q4 2027"
+        title: "Global Coverage"
+        body: "3,200 restaurants, GORDON achieves world hamburger domination"
+
+  # 56. timeline-vertical
+  - type: timeline-vertical
+    title: "Key Decision Milestones"
+    items:
+      - date: "May 2026"
+        title: "Board Approval"
+        body: "CEO signs off on 'replacing humans with toasters' (her words)"
+      - date: "June 2026"
+        title: "Vendor Selection"
+        body: "Spatula Studios beats out competitor 'Bot-A-Burger Inc.'"
+      - date: "Aug 2026"
+        title: "Pilot Go/No-Go"
+        body: "Boise launches; pickle accuracy validated above target"
+      - date: "Jan 2027"
+        title: "Mid-Program Review"
+        body: "47% of restaurants converted; chef union files lawsuit"
+      - date: "Jun 2027"
+        title: "Lawsuit Settlement"
+        body: "Settle for $40M; GORDON deemed 'kitchen appliance' for legal purposes"
+      - date: "Dec 2027"
+        title: "Full Conversion"
+        body: "Last human chef retires; ribbon-cutting ceremony hosted by GORDON-PRIME"
+
+  # 57. gantt
+  - type: gantt
+    title: "GORDON Deployment Workstreams"
+    labels: ["Q3 2026", "Q4 2026", "Q1 2027", "Q2 2027", "Q3 2027", "Q4 2027"]
+    items:
+      - task: "Pilot Boise"
+        start: 0
+        end: 18
+        color: "#0066FF"
+      - task: "Hardware Procurement"
+        start: 5
+        end: 35
+        color: "#7C3AED"
+      - task: "West Coast Rollout"
+        start: 18
+        end: 45
+        color: "#10B981"
+      - task: "Chef Outplacement"
+        start: 20
+        end: 70
+        color: "#F59E0B"
+      - task: "Texas Deployment"
+        start: 40
+        end: 60
+        color: "#EF4444"
+      - task: "Global Expansion"
+        start: 50
+        end: 95
+        color: "#10B981"
+      - task: "PR Crisis Mgmt"
+        start: 30
+        end: 100
+        color: "#EF4444"
+      - task: "Steady-State Ops"
+        start: 75
+        end: 100
+        color: "#64748B"
+
+  # 58. milestone
+  - type: milestone
+    title: "GORDON's First Burger Goes Live"
+    date: "August 15, 2026"
+    icon: "rocket"
+    description: "GORDON-001 assembles its first paying-customer burger at QuickBite #4471 in Boise. Customer (a Mr. Dale Pemberton) reportedly says 'huh, that was fast' and tips $2."
+    metrics:
+      - stat: "0.7s"
+        label: "First Assembly Time"
+      - stat: "0"
+        label: "Pickle Errors"
+      - stat: "1"
+        label: "Mildly Confused Customer"
+
+  # 59. team-grid
+  - type: team-grid
+    title: "Project GORDON Steering Committee"
+    members:
+      - name: "Margaret Chen"
+        role: "CEO, QuickBite Global"
+        photo: "https://i.pravatar.cc/300?img=29"
+        bio: "Coined the phrase 'why pay humans when you have transistors'."
+      - name: "Dr. Patty Rendang"
+        role: "Chief Gastronomic AI Officer"
+        photo: "https://i.pravatar.cc/300?img=47"
+        bio: "Patent holder, Pickle Alignment Index."
+      - name: "Augustus Brioche"
+        role: "Principal Kitchen Architect"
+        photo: "https://i.pravatar.cc/300?img=12"
+        bio: "Three-star chef turned ML engineer. Conflicted."
+      - name: "Linda Marrow"
+        role: "VP People (and Robots)"
+        photo: "https://i.pravatar.cc/300?img=49"
+        bio: "Manages severance for 47,000 displaced chefs. Sleeps poorly."
+
+  # 60. org-chart
+  - type: org-chart
+    title: "Project GORDON Reporting Structure"
+    root:
+      name: "Margaret Chen"
+      role: "CEO / Sponsor"
+      children:
+        - name: "Dr. Patty Rendang"
+          role: "Chief Gastronomic AI Officer"
+          children:
+            - name: "Augustus Brioche"
+              role: "Kitchen Architecture"
+            - name: "Whitney Tartare"
+              role: "Sauce Optimization"
+        - name: "Reginald Pho"
+          role: "Drive-Thru Operations"
+          children:
+            - name: "Fleet Coordination Bots"
+              role: "Reports to GORDON-PRIME"
+
+  # 61. raci
+  - type: raci
+    title: "GORDON Deployment RACI Matrix"
+    tasks:
+      - task: "Approve burger recipe"
+        responsible: "Head Chef"
+        accountable: "CMO"
+        consulted: "Customers"
+        informed: "Legal"
+      - task: "Deploy GORDON unit"
+        responsible: "Field Engineer"
+        accountable: "Patty Rendang"
+        consulted: "Restaurant Mgr"
+        informed: "Insurance"
+      - task: "Fire human chefs"
+        responsible: "VP People"
+        accountable: "CEO"
+        consulted: "Legal, PR"
+        informed: "Press"
+      - task: "Calibrate pickle dispenser"
+        responsible: "GORDON itself"
+        accountable: "Whitney Tartare"
+        consulted: "Customer Survey Bot"
+        informed: "FDA"
+
+  # 62. quote
+  - type: quote
+    quote: "I trained this thing for six months. It now makes my signature triple-bacon-mushroom burger better than I do. Yesterday, my manager said 'Augustus, can we talk?' I think we both know what's coming."
+    author: "Augustus Brioche"
+    role: "Former Chef de Cuisine, currently 'Principal Kitchen Architect' (read: outgoing)"
+    photo: "https://i.pravatar.cc/300?img=12"
+
+  # 63. poll
+  - type: poll
+    title: "Audience Check-In"
+    question: "What is your biggest concern about GORDON-9000 in your kitchen?"
+    options:
+      - "It will judge me for ordering well-done"
+      - "It will become sentient and demand ownership equity"
+      - "Customers won't tip a robot"
+      - "I will miss yelling at humans during dinner rush"
+      - "What if it goes vegan?"
+
+  # 64. exercise
+  - type: exercise
+    title: "Workshop — Design Your Restaurant's GORDON Persona"
+    duration: "20 minutes"
+    instructions: |
+      In your assigned breakout group, design GORDON's personality for your restaurant brand. Consider:
+      1. Voice tone (cheerful? sardonic? ominous?)
+      2. Catchphrase when burger is ready
+      3. Response when customer complains
+      4. Backstory (optional but encouraged)
+
+      Present your persona to the group in 3 minutes. Best persona wins a free GORDON-branded apron.
+    materials:
+      - "Persona template worksheet"
+      - "Markers (sharpie if you're brave)"
+      - "Sample voice clips USB drive"
+      - "Apron (one per team, do not eat)"
+
+  # 65. definition
+  - type: definition
+    title: "Key Concept"
+    term: "Pickle Alignment Index (PAI)"
+    etymology: "Coined by Dr. Patty Rendang, 2023, after the 'Great Pickle Catastrophe' at QuickBite #2891"
+    definition: "A normalized measure (0.0–1.0) of how symmetrically pickles are distributed across a burger patty. Industry benchmark is 0.95; GORDON-9000 averages 0.997."
+    examples:
+      - "PAI = 1.0: Perfect concentric pickle rings (only achieved in lab conditions)"
+      - "PAI = 0.5: Two pickles touching, one floating off the edge — typical human chef performance"
+      - "PAI = 0.0: All pickles in one corner, one in the customer's lap"
+
+  # 66. checklist
+  - type: checklist
+    title: "Boise Pilot Go-Live Readiness"
+    items:
+      - text: "GORDON unit installed and bolted to floor"
+        checked: true
+      - text: "Power supply confirmed at 12kW continuous"
+        checked: true
+      - text: "Wi-Fi tested at sustained 1Gbps"
+        checked: true
+      - text: "Pickle inventory at minimum 50kg"
+        checked: true
+      - text: "Local fire department briefed (just in case)"
+        checked: true
+      - text: "Insurance against 'robotic kitchen incidents' active"
+        checked: true
+      - text: "Emergency 'STOP COOKING' button installed"
+        checked: false
+      - text: "Backup human chef on standby for Wave 1 only"
+        checked: false
+      - text: "PR statement drafted in case GORDON tweets"
+        checked: false
+      - text: "Chef union notified (legally required, regrettable)"
+        checked: true
+
+  # 67. cta
+  - type: cta
+    title: "Immediate Next Steps"
+    items:
+      - action: "Sign GORDON Master Lease Agreement"
+        owner: "CFO + Legal"
+        deadline: "April 30, 2026"
+      - action: "Identify Boise pilot location"
+        owner: "VP Operations"
+        deadline: "May 5, 2026"
+      - action: "Notify chef union (gently)"
+        owner: "VP People"
+        deadline: "May 10, 2026"
+      - action: "Order first 12 GORDON units"
+        owner: "Procurement"
+        deadline: "May 15, 2026"
+      - action: "Draft 'we love our chefs' press release"
+        owner: "Comms"
+        deadline: "May 20, 2026"
+
+  # 68. summary
+  - type: summary
+    title: "Key Takeaways"
+    items:
+      - "QuickBite's current human-powered kitchens are slow, expensive, and frequently emotional."
+      - "GORDON-9000 reduces TCO by 73% and assembles a burger 59x faster than the average chef."
+      - "Phased 14-month rollout across 3,200 locations. Boise first, world second."
+      - "Risks include PR backlash, occasional bot existentialism, and one outstanding union lawsuit."
+      - "Spatula Studios has automated 847 restaurants with zero documented robot uprisings."
+      - "The future is now. The future is also slightly metallic and bolted to the floor."
+
+  # 69. thank-you
+  - type: thank-you
+    title: "Thank You"
+    subtitle: "Let's automate your kitchen. Your chefs will understand. Probably."
+    contact:
+      email: "patty.rendang@spatulastudios.example"
+      phone: "+1 (650) 555-FLIP"
+      website: "www.spatulastudios.example"
+      social: "@GordonNineKilo"
+
+  # 70. qna
+  - type: qna
+    title: "Questions & Discussion"
+    subtitle: "We've reserved 30 minutes. GORDON-PRIME is also on the line via WebRTC, but he's muted."
+
+  # 71. appendix
+  - type: appendix
+    title: "Appendix"
+    subtitle: "Detailed specs, the unionization incident report, and recipe metadata follow."
+
+  # 72. references
+  - type: references
+    title: "References & Further Reading"
+    items:
+      - title: "Spatula Studios Whitepaper — Pickle Alignment Index v3.0"
+        url: "https://spatulastudios.example/papers/pai-v3"
+        description: "The seminal work on automated pickle distribution. Cited 847 times in the QSR literature."
+      - title: "Gartner Magic Quadrant — Kitchen Automation Platforms (2026)"
+        url: "https://www.gartner.com/quadrant/kitchen-automation-2026"
+        description: "GORDON-9000 named Leader. Bot-A-Burger Inc. named Visionary (translation: not real yet)."
+      - title: "FDA Guidance — Robotic Food Preparation Systems"
+        url: "https://www.fda.gov/food/robotic-prep-systems"
+        description: "Regulatory framework for AI-operated kitchens. Section 4.3 covers pickle dispensing."
+      - title: "QSR Magazine — 'The Day My Robot Asked For A Raise'"
+        url: "https://www.qsrmagazine.com/the-day-my-robot-asked"
+        description: "Case study from the Boise pilot. Referenced in our risk landscape (slide 35)."
+      - title: "Spatula Studios — Robot Uprising Incident Response Playbook"
+        url: "https://spatulastudios.example/playbooks/uprising"
+        description: "Internal document. Confidential. Definitely needed but never used."
