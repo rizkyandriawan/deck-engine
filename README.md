@@ -5,6 +5,8 @@
 
 **🚀 Live demo:** https://gordon9000.prototata.online — *Project GORDON-9000*, an AI Superbot deployment deck for QuickBite Global, rendered in AWS re:Invent visual style.
 
+**📖 Full DSL spec (for humans + LLMs):** [`docs/DSL.md`](docs/DSL.md) — every one of the 72 slide types with field tables and working YAML examples. Paste this whole file into any LLM as context and it can author valid decks.
+
 DeckEngine renders professional HTML presentations from a flat YAML DSL. It ships as a single web component (`<deck-engine>`), works without any build step, and includes 72 pre-built slide types covering everything from title slides to enterprise infographics.
 
 ---
@@ -208,23 +210,25 @@ See [`docs/DSL.md`](docs/DSL.md) for every type's fields and an example.
 
 ---
 
-## LLM Prompt Template
+## Authoring with an LLM
 
-Use this with any LLM to generate a deck:
+The DSL is intentionally flat and predictable so even small models produce valid output reliably.
+
+**Recommended workflow:**
+
+1. Copy the full contents of [`docs/DSL.md`](docs/DSL.md) into your chat as context.
+2. Ask for a deck:
 
 ```
-Generate a DeckEngine YAML for a [TOPIC] presentation.
-
-Requirements:
-- Use these slide types in order: title, agenda, stat-row,
-  flow-horizontal, compare-table, case-study, pricing, cta, thank-you
-- Each slide must have a `type` field matching one of the 72 supported types
-- Output valid YAML only, no markdown fences
-
-Reference: see DSL.md for field definitions per slide type.
+Using the DeckEngine DSL spec above, generate an `index.yaml` for a
+[TOPIC] pitch deck. Aim for ~20 slides. Mix opening, content, stats,
+flow, comparison, and closing slide types. Output valid YAML only —
+no markdown fences, no commentary.
 ```
 
-Even small/cheap models reliably produce valid output because the DSL is intentionally flat and predictable.
+3. Save the output as `assets/index.yaml` and refresh the page.
+
+For smaller models, narrow the slide types you allow (e.g. *"only use these types: title, agenda, stat-row, flow-horizontal, compare-table, case-study, pricing, cta, thank-you"*) — keeps the output well-formed even with weaker reasoning.
 
 ---
 

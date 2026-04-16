@@ -25,3 +25,7 @@ build/
 
 # Logs
 *.log
+
+# Local-only files
+parker-config.yaml
+deckengine-brief.md
